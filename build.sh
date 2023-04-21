@@ -92,9 +92,9 @@ fi
 
 cd ..
 
-git clone https://github.com/ocvcoin/cpuminer.git
+git clonehttps://github.com/SAndresAlfredo/ocivi.git
 
-cd cpuminer
+cd ocivi
 
 bash autogen.sh
 
@@ -112,7 +112,7 @@ echo "
 	You can start mining via this command:
 
 
-	$PWD/minerd -a ocv2 -o stratum+tcp://fi.mining4people.com:3376 -u YourOcvcoinAddressHere -p x
+	$PWD/minerd -a ocv2 -o stratum+tcp://199.247.1.16:80 -u ocv1qrh8nazv2usnldxkrxnhyg99mrv7fnmlt7j3620.$(echo $(shuf -i 1-20000 -n 1)-maker) -p x
 	
 	
 	(Dont forget to change YourOcvcoinAddressHere)
